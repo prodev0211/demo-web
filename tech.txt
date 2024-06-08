@@ -1,0 +1,48 @@
+HTML 
+<h>,<p>,<a>,<font>,<div>,<main>,<nav>,<header>,<footer> ---> Font Elements 
+        {
+            CSS of Font Elements 
+            text-color 
+            font-size
+            font-weight
+            font-family 
+            text-align :left right center 
+            text-decoration: underline none 
+        }
+<img src="./img/test.jpeg ... "> 
+        {
+            CSS of img Elements 
+            height 
+            width
+            position fixed(bat hieu ) relative absolute(bat hieu2 )
+        }
+<button> 
+        {
+            background-color 
+            background-image 
+            color 
+            border 
+            border-radius
+            padding
+            font-weight
+            cursor:pointer 
+        }
+    
+Thuoc tinh chung 
+Padding : La`m to ra 
+Margin : Day ve 1 ben 
+Border : Vien` 
+Flex-box { 
+    display:flex block 
+    Justify-content: Center spacebetween spaceevenly left right (Truc Tung)
+    align-items Center 
+    flex-direction: column row (COL ROW)
+    gap: +kich thuoc (px vh % ) vh-macbook 100vh=100mh Macbook 
+}
+@media only screen and (max-width: 600px) --- Responsive 
+ input - type 
+                checkbox
+                text 
+                password 
+                number 
+                date 

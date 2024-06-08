@@ -1,0 +1,78 @@
+/* This is style of the web app  */
+
+
+
+body { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav {
+    max-width: 100%;
+    height: 70px;
+    position:   relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding-left: 20px ;
+    padding-right:20px;
+}
+nav .navbar-item1 a img {
+    height:50px ;
+}
+
+nav .navbar-item2 {
+    display: flex;
+    gap:50px;
+}
+nav .navbar-item3 { 
+    display: flex ;
+    gap: 30px;
+}
+nav .navbar-item3 button {
+    border: none;
+    padding: 10px 20px 10px 20px;
+
+}
+.button1 { 
+    background-color: #0d6efd;
+    color: white;
+    font-weight: 600;
+}
+.button2 { 
+    background-color: #2cbc63;
+    color: black;
+    font-weight: 600;
+}
+
+nav .navbar-item2 a:hover{ 
+    color: violet;
+}
+nav .navbar-item2 a{ 
+    text-decoration: none;
+    color: black;
+    position: relative;
+} 
+
+nav .navbar-item2 a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    transition: 0.2s;
+    
+}
+nav .navbar-item2 a:hover::after {
+    width: 100%;
+    background-color: violet;
+}
+
